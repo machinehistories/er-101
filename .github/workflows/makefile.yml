@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: firmware-hex
-        path: ./release/firmware.hex
+        path: release/avr32/er-101-firmware-2.10.hex
