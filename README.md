@@ -30,3 +30,7 @@ FIRMWARE_VERSION = 2.10
 you can run the github action and download the hex firmware using the modified yml file. The file will be linked in artefacts. 
 
 while the manual shows the last firmware as being v2.09 the code  provided by OD makes v2.10. As far as i can tell there is no mention of the difference between v2.09 and v2.10. You can see this v2.10 designation specified in the scripts/env.mk. 
+
+
+to place into dfu mode place switch into dev mode, hold down reset button, plug in usb to computer, switch to usb mode, release reset and run 
+sudo dfu-util -a 0 -s 0x8000000:leave -D /home/vt/microchip/er-101/release/avr32/er-101-firmware-v210.hex
