@@ -30,8 +30,7 @@ jobs:
       run: make firmware
 
     - name: Upload HEX file
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3.1.0
       with:
         name: firmware-hex
         path: ./release/firmware.hex
-
