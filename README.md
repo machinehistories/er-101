@@ -20,3 +20,11 @@ The flash-able HEX file will be written to `release/avr32/er-101-firmware-{versi
 ## Helpful AVR32 References
 
 * https://hofmeyr.de/avr32%20hello%20world/
+* 
+you can run the github action and download the hex firmware using the modified yml file. 
+
+while the manual shows the last firmware as being v2.09 the code  provided by OD makes v2.10. As far as i can tell there is no mention of the difference between v2.09 and v2.10 you can see this in the 
+# testing | release | debug
+PROFILE ?= release
+ARCH = avr32
+FIRMWARE_VERSION = 2.10
