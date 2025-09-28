@@ -29,4 +29,4 @@ FIRMWARE_VERSION = 2.10
 
 you can run the github action and download the hex firmware using the modified yml file. 
 
-while the manual shows the last firmware as being v2.09 the code  provided by OD makes v2.10. As far as i can tell there is no mention of the difference between v2.09 and v2.10 you can see this in the 
+while the manual shows the last firmware as being v2.09 the code  provided by OD makes v2.10. As far as i can tell there is no mention of the difference between v2.09 and v2.10. You can see this v2.10 designation specified in the scripts/env.mk. 
