@@ -34,3 +34,9 @@ while the manual shows the last firmware as being v2.09 the code  provided by OD
 
 to place into dfu mode place switch into dev mode, hold down reset button, plug in usb to computer, switch to usb mode, release reset and run 
 sudo dfu-util -a 0 -s 0x8000000:leave -D /home/vt/microchip/er-101/release/avr32/er-101-firmware-v210.hex https://github.com/machinehistories/er-101/blob/main/er-101-firmware-v210.hex
+
+additional information sources 
+https://groups.google.com/g/odevices
+https://llllllll.co/t/orthogonal-devices-er-101-102/68830
+https://discord.gg/tCWz8vDJy
+https://modwiggler.com/forum/viewtopic.php?t=90269&start=1250
